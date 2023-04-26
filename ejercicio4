@@ -1,0 +1,14 @@
+const nombre = "Mauro"
+const apellido = "Haberkorn"
+const estudiante = nombre.concat(" ").concat(apellido)
+
+const estudianteMayus = estudiante.toUpperCase()
+const estudianteMinus = estudiante.toLowerCase()
+
+const estudianteLength = estudiante.length
+
+const inicialNombre = nombre.substring(0, 1)
+
+const finalApellido = apellido.substring(apellido.length - 1, apellido.length)
+
+const nombreEnEstudiante = estudiante.includes(nombre)
